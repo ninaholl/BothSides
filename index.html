@@ -8,27 +8,52 @@
 </head>
 <body>
 	<header>
-		<div id="notmenu">
-			<img id="elephant" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Republicanlogo.svg/2000px-Republicanlogo.svg.png" alt="republican" width="50" height="50">
-			<div id="logo">
-				<h1>Both Sides</h1>
-				<h2>Election 2016</h2>
-			</div>
-			<img id="donkey" src="http://d3n8a8pro7vhmx.cloudfront.net/dplac/sites/1/meta_images/original/dem-donkey-right-copy.png?1413244000" alt="democrat" width="50" height="50">
+		<div id="logo">
+			<h1>Both Sides</h1>
+			<h2>Election 2016</h2>
 		</div>
-	</header>
-		<div id="menu">
 		<ul>
-			<li><a class="menu" href="index.html">Home</a></li>
-			<li><a class="menu" href="Candidates.html">The Candidates</a></li>
-			<li><a class="menu" href="Media.html">Media</a></li>
-			<li><a class="menu" href="About.html">About</a></li>
+			<li><a class="red" href="#home">Home</a></li>
+			<li><a class="white" href="#candidates">The Candidates</a></li>
+			<li><a class="red" href="#media">Media</a></li>
+			<li><a class="white" href="#about">About</a></li>
 		</ul>
-		</div>
-	<div id="nyt">
-		<p>title</p>
+	</header>
+	<div id="home" class="container">
+		<p id="p1">Election Day is November 8, 2016<p>
+		<p id="p2">Who will you vote for?</p>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-	<script src="script.js"></script>
+	<div id="candidates" class="container">
+		<div id="donaldtrump">
+			<img id="elephant" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Republicanlogo.svg/2000px-Republicanlogo.svg.png" alt="republican" width="40" height="40">
+			<h3>Donald Trump </h3> 
+			<p>Read about Trump's positions on important policy issues <a class="herebutton" href="https://www.donaldjtrump.com/positions">here</a></p>
+			<div id="dt_twitter">
+				<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				<a class="twitter-timeline" data-width="300" data-height="400" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/realDonaldTrump"></a> 
+			</div>
+		</div>
+		<div id="hillaryclinton">
+			<img id="donkey" src="http://d3n8a8pro7vhmx.cloudfront.net/dplac/sites/1/meta_images/original/dem-donkey-right-copy.png?1413244000" alt="democrat" width="40" height="40">
+			<h3>Hillary Clinton</h3>
+			<p>Read about Clinton's positions on important policy issues <a class="herebutton" href="https://www.hillaryclinton.com/issues/">here</a></p>
+			<div id="hc_twitter">
+					<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					<a class="twitter-timeline" data-width="300" data-height="400" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/HillaryClinton"></a></div>
+		</div>
+	</div>
+	<div id="media" class="container">
+		<div id="nyt">
+			<ul id="article"></ul>
+		</div>
+		<div id="npr">
+			<
+		</div>
+	</div>
+	<div id="about" class="container">
+	
+	</div>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+	<script src="script.js"></script>	
 </body>
 </html>
