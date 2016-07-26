@@ -1,24 +1,71 @@
-a.white {
-	text-decoration: none;
-	font-size:20px;
-	color:white;
-	padding-left:10px;
+#about {
+	overflow: auto;
+	background-color: #F0F8FF;
+	padding-left:100px;
+	padding-right:100px;
+	padding-top:100px;
 }
-
-
-a.red {
-	text-decoration: none;
-	font-size:20px;
+a.menu:hover{
 	color:red;
-	padding-left:10px;
 }
-a:hover {
-	text-decoration: underline;
+a.menu {
+	text-decoration: none;
+	font-size:20px;
+	color:#E0FFFF;
+	padding-left:15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+a.news:hover{
+	color:red;
+}
+a.news {
+	text-decoration: none;
+	color: #00008B;
+
+}
+#article li{
+	display:block;
 }
 
 body {
 	font-family:"Trebuchet MS";
 	margin:0;
+	color:#00008B;
+	letter-spacing: 1px;
+}
+
+#candidates{
+	background-color: #F0F8FF;
+	overflow: auto;
+	padding-left:100px;
+	padding-right:100px;
+	padding-top:100px;
+}
+
+
+#candidates h1, #media h1, #about h1 {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom:50px;
+	font-size:40px;
+	letter-spacing: 2px;
+	color:red;
+
+}
+
+#candidates h3 {
+	font-size: 25px;
+	margin:0px;
+	margin-top:5px;
+	float:left;
+	color:#00008B;
+}
+.container{
+	margin-top:200px;
+	margin:0 auto;
+	padding-top:50px;
+	padding-bottom:50px;
 }
 
 #donaldtrump{
@@ -26,27 +73,23 @@ body {
 	width:40%;
 	margin-left:50px;
 }
+#donkey {
+	margin-left:10px;
+}
 
-.container{
-	margin-top:200px;
-	margin:0 auto;
-	height:100vh;;
+#elephant {
+  margin-left:10px;
+
+}
+footer{
+	background-color:#00008B;
+	height:80px;
 	width:100%;
 }
-#home {
-	background:black url("flag.jpg") no-repeat ;
-	background-size: cover;
-	position: absolute;
-	
+#gallery {
+	text-align: center;
 }
-#elephant {
-  float:left;
-  margin-right:10px;
-}
-#donkey {
-	float:left;
-	margin-right:10px;
-}
+
 header {
 	background-color:#00008B;
 	height:80px;
@@ -58,20 +101,32 @@ header {
 	z-index: 1;
 
 }
+
 header h1 {
   margin:0;
   font-size:44px;
-  color:white;
+  color:#E0FFFF;
   letter-spacing: 3px;
+  
 }
+
 header h2 {
 	margin:0;
 	text-align: center;
 	font-size:20px;
 	color:red;
+	letter-spacing: 2px;
+}
+
+header ul {
+	list-style-type: none;
+	margin:15px;
+	float:right;
+	padding-top: 10px;
+	padding-left: 0px;
 }
 .herebutton {
-	color:blue;
+	color:red;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -80,7 +135,12 @@ header h2 {
 	width:40%;
 	margin-right:50px;
 }
+#home {
+	background:black url("whitehouse.jpg") no-repeat  center ;
+	background-size: cover;
+	height:85vh;
 
+}
 .homepage {
 	text-align: center;
 	font-size: 30px;
@@ -99,40 +159,65 @@ li {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
-#p1 {
-	background-color:red;
-	padding:10px;
-	color:white;
-	position:relative;
-	float:left;
-	margin-left:30px;
-	margin-top:150px;
-	width:40%;
-	font-size: 20px;
-	font-weight: bold;
+#media {
+	background-color:#f0f0f5;
+	overflow: auto;
+	padding-left:100px;
+	padding-right:100px;
+	padding-top:100px;	
 	text-align: center;
-	
+}
+#media h3 {
+	font-size:30px;
+}
+#nyt {
+	margin-top:50px;
+	line-height: 30px;
+	margin-bottom:70px;
+}
+#nytlogo {
+	margin-left:10px;
+	margin-bottom:-30px;
+}
+.outlets {
+	padding:30px;
+	padding-left:0;
+	padding-right:40px;
+
+
+}
+p {
+	color:#00008B;
+}
+#p1 {
+	padding:20px;
+	background-color: rgba(255,255,255,0.6);
+	color:#00008B;
+	margin-top:150px;
+	width:80%;
+	font-size: 30px;
+	font-weight: bold;
+	position:absolute;
+/*	text-align: center;*/
 }
 #p2 {
-	background-color: #00008B;
+	background-color: rgba(255,255,255,0.6);
 	padding:10px;
-	color:white;
-	position:relative;
-	width:30%;
-	font-size: 20px;
+	color:#00008B;
+	width:40%;
+	font-size: 15px;
 	font-weight: bold;
-	text-align: center;
-	float:right;
-	margin-top:400px;
-	margin-right:30px;
+	right:0px;
+	bottom:0px;
+	position:absolute;
+	text-align: right;
+}
+#red {
+	color:red;
 }
 #title {
 	margin:200px;
 }
-ul {
-	list-style-type: none;
-	margin:15px;
-	float:right;
-	padding-top: 10px;
-	padding-left: 0px;
+ul#article {
+	padding-left: 0;
 }

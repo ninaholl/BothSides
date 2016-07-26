@@ -11,33 +11,16 @@ $(document).ready(function(){
 		console.log(result);
 		var myArray = result.results;
 		console.log("myArray:"+ myArray);
-		for (var i=0; i<myArray.length; i++) {
+		for (var i=0; i<11; i++) {
 			var title = myArray[i].title;
 			var abstract = myArray[i].abstract;
 			var url = myArray[i].url;
-			$("#article").append("<li><a href="+ url +">"+title+"</a></li>")
-			// console.log(myArray[i].abstract)
-			// console.log(myArray[i].url)
-			// $("#article").html(result.results[i].title.abstract);
-		  	// $("#abstract").html(result.results[i].abstract);
+			$("#article").append("<li><a class='news'href="+ url +">"+title+"</a></li>")
+
 }
 	}).fail(function(err) {
 	  throw err;
 	});
-	// function(){
-	// 		$.ajax({
-	// 			type: "GET",
-	// 			url: "https://newsapi.org/v1/articles",
-	// 			data: {
-	// 				source: thewashingtonpost
-	// 				apiKey: b1c7073d287e42f0920eaa19ba2f7150
-	// 			}
-	// 			success: function(response){
-	// 				console.log(response);
-					
-	// 			}
-	// 		});
-
-	// 	}
+	
 });
 

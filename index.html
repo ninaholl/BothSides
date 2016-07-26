@@ -13,46 +13,65 @@
 			<h2>Election 2016</h2>
 		</div>
 		<ul>
-			<li><a class="red" href="#home">Home</a></li>
-			<li><a class="white" href="#candidates">The Candidates</a></li>
-			<li><a class="red" href="#media">Media</a></li>
-			<li><a class="white" href="#about">About</a></li>
+			<li><a class="menu" href="#home">Home</a></li>
+			<li><a class="menu" href="#candidates">The Candidates</a></li>
+			<li><a class="menu" href="#media">The Debate</a></li>
+			<li><a class="menu" href="#about">About</a></li>
 		</ul>
 	</header>
 	<div id="home" class="container">
-		<p id="p1">Election Day is November 8, 2016<p>
-		<p id="p2">Who will you vote for?</p>
+		<p id="p1">Election Day is <span id="red"> November 8, 2016.</span> Who will you vote for?</p>
+		<p id="p2">Read about the candidates from all sides of the debate— <span id="red">then Decide.</span></p>
 	</div>
 	<div id="candidates" class="container">
+		<h1>The Candidates</h1>
 		<div id="donaldtrump">
-			<img id="elephant" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Republicanlogo.svg/2000px-Republicanlogo.svg.png" alt="republican" width="40" height="40">
 			<h3>Donald Trump </h3> 
-			<p>Read about Trump's positions on important policy issues <a class="herebutton" href="https://www.donaldjtrump.com/positions">here</a></p>
+			<img id="elephant" src="elephant.jpg" alt="republican" width="40" height="40">
+			<p>Read about Trump's positions on important policy issues <a class="herebutton" href="https://www.donaldjtrump.com/positions" target="_blank">here</a></p>
 			<div id="dt_twitter">
 				<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
 				<a class="twitter-timeline" data-width="300" data-height="400" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/realDonaldTrump"></a> 
 			</div>
 		</div>
 		<div id="hillaryclinton">
-			<img id="donkey" src="http://d3n8a8pro7vhmx.cloudfront.net/dplac/sites/1/meta_images/original/dem-donkey-right-copy.png?1413244000" alt="democrat" width="40" height="40">
 			<h3>Hillary Clinton</h3>
-			<p>Read about Clinton's positions on important policy issues <a class="herebutton" href="https://www.hillaryclinton.com/issues/">here</a></p>
+			<img id="donkey" src="donkey.jpg" alt="democrat" width="40" height="40">
+			<p>Read about Clinton's positions on important policy issues <a class="herebutton" href="https://www.hillaryclinton.com/issues/" target="_blank">here</a></p>
 			<div id="hc_twitter">
 					<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
 					<a class="twitter-timeline" data-width="300" data-height="400" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/HillaryClinton"></a></div>
 		</div>
 	</div>
 	<div id="media" class="container">
+		<h1>The Debate</h1>
+		<img id="nytlogo" src="nyt.png" width="300" height="40">
 		<div id="nyt">
 			<ul id="article"></ul>
 		</div>
-		<div id="npr">
-			<
+		<h3>Explore these news sources:</h3>
+		<div id="gallery">
+				<a href="http://www.cnn.com/politics" target="_blank"><img class="outlets" src="cnn.png" alt="CNN Politics" width="180" height="50"></a>
+				<a href="http://www.politico.com/" target="_blank"> <img class="outlets" src="politico.png"  alt="Politico" width="220" height="50"></a>
+				<a href="http://fivethirtyeight.com/politics" target="_blank"> <img class="outlets" src="538.png" alt="Five Thirty Eight"  width="280" height="50"></a>
+				<a href="http://www.vox.com/policy-and-politics" target="_blank"><img class="outlets" src="vox.png"alt="Vox" width="160" height="40"></a>
+				<a href="https://www.washingtonpost.com/politics/?nid=top_nav_politics" target="_blank" > <img class="outlets" src="washpost.png" alt="The Washington Post" width="250" height="50"></a>
+				<a href="http://time.com/politics/" target="_blank"> <img class="outlets" src="time.png" alt="TIME" width="180" height="50"></a>
+				<a href="http://www.theatlantic.com/politics/" target="_blank"> <img class="outlets" src="atlantic.png" alt="The Atlantic" width="180" height="50"></a>
+				<a href="http://www.npr.org/sections/politics/" target="_blank"><img class="outlets" src="npr.png" alt="NPR" width="160" height="50"></a>
+				<a href="http://www.wsj.com/news/politics" target="_blank"> <img class="outlets" src="WSJ.png" alt="The Wall Street Journal" width="280" height="50"></a>
+				<a href="http://www.newsweek.com/topic/politics" target="_blank"> <img class="outlets" src="newsweek.png" alt="Newsweek" width="220" height="50"></a>
+				<a href="https://www.buzzfeed.com/politics" target="_blank"><img class="outlets" src="buzzfeed.svg" alt="Buzzfeed" width="220" height="50"></a>
+				<a href="http://www.newyorker.com/magazine/the-political-scene" target="_blank"><img class="outlets" src="nyer.png" alt="The New Yorker" width="180" height="50"></a>
 		</div>
 	</div>
 	<div id="about" class="container">
-	
+		<h1>About</h1>
+		<p>The 21st century poses problems for the sharing of information. There are thousands opinions, articles, and clips circulating around the internet at any given moment, yet our information is self-selected. We tend to share the views of our friends, and therefore our social media accounts consist (mostly) of posts that we agree with. Furthermore, we choose which news outlets to read, listen to, or watch. As a result, it has become increasingly difficult to be exposed to the opposing side of any given perspective.</p>
+		<p>This election year is an important one, so it is crucial that all of us step outside of our comfort zone. We must engage in discourse and seriously consider the other side of any disagreement. This website aims provide multiple aspects of the debate surrounding the 2016 election, so that after hearing both sides, you can make an informed decision.</p>
 	</div>
+	<footer>
+	</footer>
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 	<script src="script.js"></script>	
 </body>
