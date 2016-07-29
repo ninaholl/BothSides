@@ -9,6 +9,11 @@
 	text-align: center;
 	margin:20px;
 }
+.abouttext{
+	font-size: 20px;
+	margin-bottom: 30px;
+	margin-top:30px;
+}
 a.menu:hover{
 	color:red;
 }
@@ -25,11 +30,14 @@ a.news:hover{
 }
 a.news {
 	text-decoration: none;
-	color: #00008B;
-
+	color: black;
+	font-size:20px;
 }
+
 #article li{
 	display:block;
+	line-height:240px;
+
 }
 
 body {
@@ -178,17 +186,24 @@ li {
 	margin-top:50px;
 	line-height: 30px;
 	margin-bottom:70px;
+	text-align: left;
 }
 #nytlogo {
 	margin-left:10px;
 	margin-bottom:-30px;
 	margin-top:30px;
+
+}
+.nytphoto {
+	float:left;
+	margin-right:40px;
+	padding-top: 60px;
+	padding-bottom: 50px;
 }
 .outlets {
 	padding:30px;
 	padding-left:0;
 	padding-right:40px;
-
 
 }
 p {
